@@ -1,0 +1,534 @@
+/* 
+    Document   : twebwe
+    Created on : Apr 29, 2013, 10:41:32 AM
+    Author     : pfumu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+     margin:0 auto;	
+     padding:0;
+     overflow:hidden;
+     text-align:center;
+     height:100%;
+     width:100%;
+}	
+header{
+    font-family: Segoe Script Bold, "Sans serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-align: center;
+}
+	#twebwebg{
+		display: block;
+		background-color: beige;
+		background:url(imgs/twebwe.jpeg);
+		background-repeat:no-repeat;
+		-moz-background-size:100% 100%; /* Firefox 3.6 */
+		background-size:100% 100%;
+		-webkit-background-origin:border-box; /* Safari*/ 
+		background-origin:border-box;
+		
+		}
+                #testimonialsbg{
+		display: block;
+		background-color: gray;
+		background:url(twebwe.jpeg);
+		background-repeat:no-repeat;
+		-moz-background-size:100% 100%; /* Firefox 3.6 */
+		background-size:100% 100%;
+		-webkit-background-origin:border-box; /* Safari*/ 
+		background-origin:border-box;
+		
+		}
+	#ingomaHeader{
+		background-color: white;
+		opacity:0.6;
+                filter:alpha(opacity=60); /* For IE8 and earlier */
+		border: 4px solid orange;
+		border-radius: 11px 11px 11px 11px;
+		display: inline;
+		position : fixed;
+		top: 40px;
+		left:256px;
+	}
+	#ingomalogo img{
+		opacity:0.6;
+                filter:alpha(opacity=60); /* For IE8 and earlier */
+		background:url(imgs/Ingoma_kilogo_base1.jpeg);
+		-moz-background-size:100% 100%; /* Firefox 3.6 */
+		background-size:100% 100%;
+		background-repeat:no-repeat;
+		-webkit-background-origin:content-box; /* Safari */
+		background-origin:content-box;
+	}
+        #ingomalogo img:hover{
+                opacity:0.8;
+                filter:alpha(opacity=80); /* For IE8 and earlier */
+	}
+	
+	#english a{
+	display:block;	
+	color:brown;
+	width:40px;
+	position : absolute;
+	text-decoration: none;
+	top: 5px;
+	left:600px;
+	opacity:0.6;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+	}
+	#english a:hover{
+	opacity:0.9;
+        filter:alpha(opacity=90); /* For IE8 and earlier */	
+	}
+	#french a{
+	display:block;	
+	color:brown;
+	width:40px;
+	position: absolute;
+	text-decoration:none;
+	top:5px;
+	left:700px;
+	opacity:0.6;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+	}
+	#french a:hover{
+	opacity:0.9;
+        filter:alpha(opacity=90); /* For IE8 and earlier */	
+	}
+nav{
+    display:inline;
+    position:fixed;
+    top: 315px;
+    left: 256px;
+    padding:3px 0px 3px 3px;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+    font-family: Segoe Script Bold, "Sans serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.7em;
+    text-align:center;
+    width:800px;
+}
+#mission a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:85px;
+            position:absolute;
+            text-decoration: none;
+            top: 0px;
+            left:10px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */	
+        }
+        #mission a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+        }
+        #services a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:90px;
+            position:absolute;
+            text-decoration: none;
+            top: 0px;
+            left:100px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */	
+        }
+        #services a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+        }
+        #testify a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:125px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:195px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #testify a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+	}
+	#excursion a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:110px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:325px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #excursion a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+	}
+        #bookings a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:90px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:440px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+       }
+        #bookings a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+       }
+       #burundi a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:90px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:535px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+       }
+        #burundi a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+       }
+        #twebwe a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:85px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:630px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #twebwe a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+            }
+	#home a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:65px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:720px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+           }
+           #home a:hover{
+               opacity:0.95;
+               filter:alpha(opacity=95); /* For IE8 and earlier */
+               }
+			   #missionnavfr a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:85px;
+            position:absolute;
+            text-decoration: none;
+            top: 0px;
+            left:2px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */	
+        }
+        #missionnavfr a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+        }
+		  #servicesnavfr a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:90px;
+            position:absolute;
+            text-decoration: none;
+            top: 0px;
+            left:92px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */	
+        }
+        #servicesnavfr a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+        }
+  
+	 #temoignages a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:125px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:187px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #temoignages a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+	}
+	#excursionavfr a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:110px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:317px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #excursionavfr a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+	}
+
+	     #reservations a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:116px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:432px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+       }
+        #reservations a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+       }
+   
+	       #burundinavfr a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:90px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:553px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+       }
+        #burundinavfr a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+       }
+        #apropos a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:83px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:647px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+        }
+        #apropos a:hover{
+            opacity:0.95;
+            filter:alpha(opacity=95); /* For IE8 and earlier */	
+            }
+	
+			#acceuil a{
+            background-color: white;
+            border: 0.8px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            display:block;
+            color:brown;
+            width:77px;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left:734px;
+            opacity:0.6;
+            filter:alpha(opacity=60); /* For IE8 and earlier */
+           }
+           #acceuil a:hover{
+               opacity:0.95;
+               filter:alpha(opacity=95); /* For IE8 and earlier */
+               }
+		article{               
+		display: inline;
+		position:fixed;
+		top: 354px;
+		left: 256px;
+                font-family: Segoe Script Bold, cursive, "Sans serif";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 0.8em;
+		margin:0;
+		padding:0;
+                width: 800px;              
+				}
+       section{		
+		display: block;
+		color:brown;
+		margin:0;
+		padding:0px;
+		width:800px;
+		text-align: center;
+                
+		}
+                
+                  #testimonials {
+                     background-color: beige;
+                     border: 1px solid gray;
+		     border-radius: 20px 20px 20px 20px ;
+		     box-shadow: 4px 4px 2px #AAA;
+                     opacity:0.0;
+                     filter:alpha(opacity=00);
+                     width: 800px;
+                     height: 470px;
+                     overflow: hidden;
+                    position: relative;
+                    
+                        }
+                      #testimonials:hover{
+                            opacity:1.0;
+                            filter:alpha(opacity=100); /* For IE8 and earlier */                            
+                        }
+               #testimonials.slide {
+                   left: 0;
+                   overflow: hidden;
+                   position: absolute; 
+                   top: 360px;
+               }
+               #testimonials.hidden {
+                   display: none;
+               }                 
+                     
+aside{
+        /*border: 1px solid orange;*/
+        border-radius: 13px 13px 13px 13px;
+        display: inline;
+		position:fixed;
+		top: 230px;
+		left: 30px;
+        font-family: cursive,Segoe Script Bold, "Sans serif";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 0.8em;
+		margin:0;
+		padding:0;
+		height:500px;/*increase it if you want to add content vertically*/
+        width: 190px;              
+				}
+        #socialGoodies{
+                		background-color: white;
+                        border: 1px solid gray;
+	                    border-radius: 9px 14px 14px 9px ;
+                        box-shadow: 4px 4px 2px #AAA;	
+		                display: block;
+		                color:black;
+		                margin-left:50px;
+		                padding-top:10px;
+		                padding-left:5px;
+						height:30px;
+		                width:35px;
+						text-align: left;
+						opacity:0.6;
+						filter:alpha(opacity=60);
+		               }
+  #socialGoodies:hover{
+                    opacity:0.8;
+                    filter:alpha(opacity=80); /* For IE8 and earlier */                            
+                        } 
+ #twitterfollow{margin-top:10px;}
+  #stumbleUponBadge{margin-top:5px;}
+  #twitterBadge{margin-top:5px;} 
+.fb-like { 
+	background-color: white;
+    border: 1px solid gray;
+	border-radius: 9px 14px 14px 9px ;
+    box-shadow: 4px 4px 2px #AAA;
+    height:25px;
+    width: 113px;
+    margin-top: 7px ;
+	margin-left:30px;
+	padding-top: 5px;
+	opacity:0.6;
+    filter:alpha(opacity=60);
+    position: relative;
+   }
+     .fb-like:hover{
+                    opacity:0.8;
+                    filter:alpha(opacity=80); /* For IE8 and earlier */                            
+                        } 								
+	footer{
+	background-color: white;
+		border: 0.8px solid gray;
+		border-radius: 10px 10px 10px 10px;
+		display: inline;
+		position: fixed;
+		top: 920px;
+		right: 720px;
+		opacity:0.6;
+		filter:alpha(opacity=60); /* For IE8 and earlier */	
+		}
+footer p {
+			display: inline;
+			font-size: 1.1em;
+            font-weight: bold;
+			text-align: center;
+			
+			
+		} 
+		
