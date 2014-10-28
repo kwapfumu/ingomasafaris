@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+    <link href="css/bookings.css" media="all" rel="stylesheet" type="text/css" />
+    <body>
+        <img src="imgs/bookingsDesktop.jpeg" id="bookingsbg"/>
+		<div id="fb-root"></div>
+        <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <script type="text/javascript">
+  (function() {
+    var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+    li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+  })();
+</script>
+		<header>
+            <title>Ingoma Safaris formulaire de r&eacuteservation </title>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+            <script src="js/validation/validationbookingFormfr.js"></script>
+            <meta name="Formulaire de reservation" content="Compl&eacutetez ce formulaire afin de nous faire part de vos envies.">
+                <div id="ingomaHeader">
+                    <span>
+                        <div id="ingomalogo"><img src="imgs/Ingoma_kilogo_base1.jpeg"/></div>
+                        <div id="english"><span><h1><a href="bookingForm.html#english">English</a></h1></span></div>
+                        <div id="french"><span><h1><a href="bookingFormfr.html#french">French</a></h1></span></div>					
+                    </span>					
+
+                </div>	
+                <script>
+
+                </script>			
+        </header>
+        <nav>
+            <div id="missionnavfr"><span><h1><a href="missionfr.html">Mission</a></h1></span></div>
+            <div id="servicesnavfr"><span><h1><a href="servicesfr.html">Services</a></h1></span></div>
+            <div id="temoignages"><span><h1><a href="testimonialsfr.html">Temoignages</a></h1></span></div>
+            <div id="excursionavfr"><span><h1><a href="excursionsfr.html">Excursions</a></h1></span></div>
+            <div id="reservations"><span><h1><a href="bookingFormfr.html">Reservations</a></h1></span></div>
+            <div id="burundinavfr"><span><h1><a href="burundifr.html">Burundi</a></h1></span></div>
+            <div id="apropos"><span><h1><a href="twebwefr.html">A propos</a></h1></span></div>
+            <div id="acceuil"><span><h1><a href="indexfr.html">Acceuil</a></h1></span></div>
+        </nav>
+        <article>
+            <section> 
+                <!-- Section content --> 
+                <form id="bookingFormfr" action="MAILTO: armandnsha@gmail.com" method="POST" enctype="text/plain">	
+                    <fieldset>
+                        <legend><h1>Formulaire de r&eacuteservation</h1></legend>
+                        <p><h3>Compl&eacutetez ce formulaire afin de nous faire part de vos envies. Un e-mail vous sera envoy&eacute dans les plus bref d&eacutelais... </h3></p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>E-mail <input type="email" name="e-mail" value=" " id ="mail" required/></li> 
+                                        <li>Ev&eacute;nement<select name="event" id="event">
+                                                <option label="Airport Pick-up">				
+                                                </option>
+                                                <option label="Location de voiture">				
+                                                </option>
+                                                <option label="Organization &eacute;v&eacute;nementielle">				
+                                                </option>
+                                                <option label="R&eacute;servation d&apos;h&ocirc;tel">				
+                                                </option>
+                                                <option label="Safari au Burundi">				
+                                                </option>
+                                                <optgroup label="Safari en Afrique de l'Est">
+                                                    <option value="Republic Democratic of Congo">R&eacute;publique Democratique du Congo</option>
+                                                    <option value="Rwanda">Rwanda</option>
+                                                    <option value="Rwanda">Tanzanie</option>
+                                                </optgroup>
+                                                <option label="Services d'hotesse">				
+                                                </option>
+                                            </select>
+                                        </li>
+                                        <li>Nombre de participants <input type="text" name="numberOfPersons" value=" " id = "numberOfPers" required/> </li>
+                                        <li>Date de r&eacute;servation<input type="date" name="bookingDate" value=" " id ="bookingDate" min="2013-04-28" max="2015-12-31" required/> </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        <div id="bookingButtons">
+                       <!-- > <ul>       
+                            <li> --> <input type="submit" value="Envoyer" /> <!-- </li>
+                            <li> --> <input type="reset" value="R&eacute;initialiser" /> <!--</li>
+                        </ul> --> </div>
+                    </fieldset>
+
+                </form>
+            </section>
+            <section> 
+                <!-- Other section content --> 
+            </section>
+        </article>
+         <aside>
+           <div id = "socialGoodies">
+			    <!-- <div id="twitterfollow"><a href="https://twitter.com/ingoma_safaris" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large"data-show-screen-name="false" data-width="100px"> </a></div> -->													
+			    <div id="fcbkBadge"><a href="https://www.facebook.com/pages/Ingoma-Safaris/422184617835427?fref=ts"><img src="imgs/FB-f-Logo__blue_29.png"/></a></div>
+				<div id="stumbleUponBadge"><su:badge layout="6"></su:badge></div>
+			    <div id="twitterBadge"><a href="https://twitter.com/ingoma_safaris"><img src="imgs/twitter-bird-light-bgs.jpeg"/></a></div>
+			</div>
+			<div class="fb-like" data-href="https://www.facebook.com/pages/Ingoma-Safaris/422184617835427?fref=ts" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="segoe ui" data-action="recommend"></div>
+        </aside>
+        <footer>
+            <div id ="footer">	
+                <p><small>&#169&nbsp;2013&nbsp;<i>Ingoma Safaris</i></small></p>
+                <p><small><i>designed by <a href="http://www.businessapprovider.com">BAP</a><i/></small></p>
+            </div>
+        </footer>
+    </body>
+</html>
