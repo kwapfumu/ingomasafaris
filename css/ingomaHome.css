@@ -24,6 +24,7 @@ body{
 		}
 	#ingomahomebg{
 		display: block;
+		background:url(imgs/AmaFinal.jpeg);
 		background-repeat:no-repeat;
 		-moz-background-size:100% 100%; /* Firefox 3.6 */
 		background-size:100% 100%;
