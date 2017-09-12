@@ -22,15 +22,19 @@ body{
 		font-size: 0.6em;
 		text-align: center;
 		}
-	#ingomahomebg{
+		#ingomahomebg{
 		display: block;
 		background:url(imgs/AmaFinal.jpeg);
+		background-position:center center;
 		background-repeat:no-repeat;
-		-moz-background-size:100% 100%; /* Firefox 3.6 */
-		background-size:100% 100%;
+		background-attachment:fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
 		-webkit-background-origin:border-box; /* Safari*/ 
 		background-origin:border-box;
-				}
+}
 	#ingomaHeader{
 		background-color: white;
 		opacity:0.6;
